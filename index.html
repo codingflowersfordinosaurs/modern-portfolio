@@ -1,54 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="">
-  <title>Document</title>
-</head>
-<body>
-  
-
-
-
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -60,321 +11,160 @@
       integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
       crossorigin="anonymous"
     />
+    <!-- FONT AWESOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
     <!-- GOOGLE FONTS -->
     <link
-      href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Baloo+Chettan|Black+Ops+One|Coda+Caption:800|Nunito+Sans|Quicksand|Unna|VT323|Poller+One"
+      href="https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat|Open+Sans|Poiret+One"
       rel="stylesheet"
     />
     <!-- RESET AND STYLE SHEETS -->
-    <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
     <title>Louie's Portfolio</title>
   </head>
+
   <body>
-    <!-- HEADER: LOGO AND LIST -->
-    <header>
-      <div class="container">
-        <h1 class="header-logo">Louie</h1>
-        <ul>
-          <li class="header-link">LinkedIn</li>
-          <li class="header-link">Resume</li>
-          <li class="header-link">Youtube</li>
-          <li class="header-link">Blog</li>
-        </ul>
-      </div>
-    </header>
-
     <!-- JUMBOTRON -->
-    <div class="jumbotron-fluid jumbotron">
+    <div class="jumbotron">
+      <div class="container">
+        <!-- NAME AND DESCRIPTION -->
+        <div class="row">
+          <div class="col-12 col-md-2"></div>
+          <div class="col-12 col-md-8">
+            <h1 class="designer-name">Caitlyn Louie</h1>
+            <p class="designer-description">UX|UI Designer & Web Developer</p>
+          </div>
+          <div class="col-12 col-md-2"></div>
+        </div>
+      </div>
+      <!-- LINKS: LINKEDIN, RESUME, BLOG, YOUTUBE -->
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-3"></div>
-          <div class="col-12 col-md-6">
-            <h2 class="jumbotron-title">I'm Caitlyn Louie.</h2>
-            <p class="jumbotron-description">UX|UI Designer & Web Developer</p>
+          <div class="col-12 col-md-2"></div>
+          <div class="col-12 col-md-8" id="link-icon-section">
+            <ul>
+              <!-- LINKEDIN -->
+              <li class="list-link">
+                <a href="https://www.linkedin.com/in/caitlynlouie/" target="blank"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <!-- RESUME -->
+              <li class="list-link">
+                <a href="https://www.nationalgeographic.com/content/dam/archaeologyandhistory/rights-exempt/history-magazine/2017/11-12/GuyFawkes/MAIN_mask_only.ngsversion.1509681749436.adapt.1900.1.jpg" target="blank"><i class="fas fa-scroll"></i></a>
+              </li>
+              <!-- YOUTUBE CHANNEL - UNDER CONSTRUCTION -->
+              <li class="list-link">
+                <a href="https://www.youtube.com/channel/UCBuLj8ct18wVJLQzbIqlxOg" target="blank"><i class="fab fa-youtube"></i></a>
+              </li>
+              <!-- BLOG - UNDER CONSTRUCTION -->
+              <li class="list-link">
+                <i class="fas fa-blog"></i>
+              </li>
+            </ul>
           </div>
-          <div class="col-12 col-md-3"></div>
+          <div class="col-12 col-md-2"></div>
         </div>
       </div>
     </div>
 
-    <!-- BRAND SECTION -->
-    <div class="brand">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-4">
-            <h4 class="l-brand-description">
-              brand description of what it mean and how i am still learning or
-              stuff like that
-            </h4>
-          </div>
-          <div class="col-12 col-md-4">
-            <img src="" alt="brand-logo" class="l-brand" />
-          </div>
-          <div class="col-12 col-md-4">
-            <h4 class="l-brand-description">
-              brand description of what it mean and how i am still learning or
-              stuff like that
-            </h4>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- PROJECT PORTFOLIO TITLE AND DESCRIPTION -->
-    <div class="project-portfolio-title">
+    <!-- EXPERIENCE -->
+    <div class="experience">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-12">
-            <h3 class="portfolio-title">Portfolio</h3>
-            <p class="portfolio-description">My latest work</p>
+            <p class="experience-description">
+              Experience with HTML, CSS, Javascript, jQuery, CSS Frameworks -
+              Bootstrap/Materialize, Node.js, Express, Git, React.js, MongoDB,
+              API/JSON, MySQL, Responsive Design, Handlbars.js, Data Structures,
+              Algorithms.
+            </p>
+            <hr />
+            <p class="experience-description">
+              Goal is to <strong>craft, elelvate, and grow</strong> as a web
+              developer.
+            </p>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- PROJECT PORTFOLIO -->
-    <div class="project-portfolio">
+    <!-- PORTFOLIO -->
+    <div class="portfolio">
+      <div class="container">
+        <h3 class="portfolio-title">Web Developer Portfolio</h3>
+        <p class="portfolio-description">
+          Check out my latest web software development portfolio projects.
+        </p>
+      </div>
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-3">
-            <div class="project-card" style="width: 18rem;">
-              <img
-                src="./images/crystalcollector.jpg"
-                class="project-card-image"
-                alt="..."
-              />
-              <div class="project-card-body">
-                <h5 class="project-title">Card title</h5>
-                <p class="project-description">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Project Go</a>
-              </div>
+          <div class="col-12 col-md-3"></div>
+          <div class="col-12 col-md-3">
+            <div class="card">
+              <a href="https://codingflowersfordinosaurs.github.io/Group-Router/" target="blank"><img src="./images/BYOB.png" alt="BYOB" /></a>
             </div>
           </div>
-
-          <div class="col-12 col-lg-3">
-            <div class="project-card" style="width: 18rem;">
-              <img
-                src="./images/giftasticSS.jpg"
-                class="project-card-image"
-                alt="..."
-              />
-              <div class="project-card-body">
-                <h5 class="project-title">Card title</h5>
-                <p class="project-description">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Project Go</a>
-              </div>
+          <div class="col-12 col-md-3">
+            <div class="card">
+              <a href="https://codingflowersfordinosaurs.github.io/WordGuessGame/" target="blank"><img src="./images/hangperson.png" alt="Hang Person" /></a>
             </div>
           </div>
-
-          <div class="col-12 col-lg-3">
-            <div class="project-card" style="width: 18rem;">
-              <img
-                src="./images/hangman.jpg"
-                class="project-card-image"
-                alt="..."
-              />
-              <div class="project-card-body">
-                <h5 class="project-title">Card title</h5>
-                <p class="project-description">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Project Go</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-lg-3">
-            <div class="project-card" style="width: 18rem;">
-              <img
-                src="./images/trivia-game.jpg"
-                class="project-card-image"
-                alt="..."
-              />
-              <div class="project-card-body">
-                <h5 class="project-title">Card title</h5>
-                <p class="project-description">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Project Go</a>
-              </div>
-            </div>
-          </div>
+          <div class="col-12 col-md-3"></div>
         </div>
-      </div>
 
-      <div class="container">
-        <!-- ROW 2: TO SEE MORE PROECTS -->
-        <div class="row row2">
-          <div class="col-12 col-md-4"></div>
-          <div class="col-12 col-md-4">
-            <h3 class="see-more-projects">My latest work. <br />See More ></h3>
+        <div class="row">
+          <div class="col-12 col-md-3"></div>
+          <div class="col-12 col-md-3">
+            <div class="card">
+              <a href="https://codingflowersfordinosaurs.github.io/Giftastic/" target="blank"><img src="./images/giftastic.jpg" alt="Giftastic" /></a>
+            </div>
           </div>
-          <div class="col-12 col-md-4"></div>
+          <div class="col-12 col-md-3">
+            <img src="" alt="" />
+          </div>
+          <div class="col-12 col-md-3"></div>
         </div>
-      </div>
-    </div>
-
-    <div class="contact-form">
-      <div class="container">
-        <section class="mb-4">
-          <!--Section heading-->
-          <h2 class="h1-responsive font-weight-bold text-center my-4">
-            Contact us
-          </h2>
-          <!--Section description-->
-          <p class="text-center w-responsive mx-auto mb-5">
-            Do you have any questions? Please do not hesitate to contact us
-            directly. Our team will come back to you within a matter of hours to
-            help you.
-          </p>
-
-          <div class="row">
-            <!--Grid column-->
-            <div class="col-md-9 mb-md-0 mb-5">
-              <form
-                id="contact-form"
-                name="contact-form"
-                action="mail.php"
-                method="POST"
-              >
-                <!--Grid row-->
-                <div class="row">
-                  <!--Grid column-->
-                  <div class="col-md-6">
-                    <div class="md-form mb-0">
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        class="form-control"
-                      />
-                      <label for="name" class="">Your name</label>
-                    </div>
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-md-6">
-                    <div class="md-form mb-0">
-                      <input
-                        type="text"
-                        id="email"
-                        name="email"
-                        class="form-control"
-                      />
-                      <label for="email" class="">Your email</label>
-                    </div>
-                  </div>
-                  <!--Grid column-->
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="md-form mb-0">
-                      <input
-                        type="text"
-                        id="subject"
-                        name="subject"
-                        class="form-control"
-                      />
-                      <label for="subject" class="">Subject</label>
-                    </div>
-                  </div>
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row">
-                  <!--Grid column-->
-                  <div class="col-md-12">
-                    <div class="md-form">
-                      <textarea
-                        type="text"
-                        id="message"
-                        name="message"
-                        rows="2"
-                        class="form-control md-textarea"
-                      ></textarea>
-                      <label for="message">Your message</label>
-                    </div>
-                  </div>
-                </div>
-                <!--Grid row-->
-              </form>
-
-              <div class="text-center text-md-left">
-                <a
-                  class="btn btn-primary"
-                  onclick="document.getElementById('contact-form').submit();"
-                  >Send</a
-                >
-              </div>
-              <div class="status"></div>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-md-3 text-center">
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <i class="fas fa-map-marker-alt fa-2x"></i>
-                  <p>San Francisco, CA 94126, USA</p>
-                </li>
-
-                <li>
-                  <i class="fas fa-phone mt-4 fa-2x"></i>
-                  <p>+ 01 234 567 89</p>
-                </li>
-
-                <li>
-                  <i class="fas fa-envelope mt-4 fa-2x"></i>
-                  <p>contact@mdbootstrap.com</p>
-                </li>
-              </ul>
-            </div>
-            <!--Grid column-->
-          </div>
-        </section>
       </div>
     </div>
 
     <!-- FOOTER -->
     <footer>
-      <div class="container">
+      <div class="container contact-container">
         <div class="row">
-          <div class="col-12 col-md-4">
-            <img src="" alt="self-pic" class="footer-l-brand" />
-          </div>
-
-          <div class="col-12 col-md-4">
-            <p class="footer-copyright">
-              Louie © 2019
+          <div class="col-12 col-md-5">
+            <h4 class="contact-title">Contact</h4>
+            <p class="contact-description">
+              You can reach me at codelouiecode@gmail.com
             </p>
           </div>
-
-          <div class="col-12 col-md-4"></div>
-
+          <div class="col-12 col-md-2"></div>
+          <div class="col-12 col-md-5">
+            <h4 class="social-title">Social</h4>
+            <ul>
+              <li class="list-link">
+                <a href="https://www.linkedin.com/in/caitlynlouie/" target="blank"><i class="fab fa-linkedin-in"></i>
+                <p class="social-name">LinkedIn</p></a>
+              </li>
+              <li class="list-link">
+                <a href="https://www.youtube.com/channel/UCBuLj8ct18wVJLQzbIqlxOg" target="blank"><i class="fab fa-youtube"></i>
+                <p class="social-name">YouTube</p></a>
+              </li>
+              <li class="list-link">
+                <i class="fas fa-blog"></i>
+                <p class="social-name">Blog</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
+      <p class="copyright">©2019 Louie. All Rights Reserved</p>
     </footer>
-
-    <!-- SCRIPT LINKS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./logic.js"></script>
   </body>
 </html>

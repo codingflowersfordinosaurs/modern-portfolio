@@ -1,3 +1,156 @@
+/* FONTS TO USE */
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Fjalla One', sans-serif; 
+font-family: 'Poiret One', cursive;*/
+
+/* GLOBAL */
+.jumbotron {
+  background-image: url("../../images/background.jpg"), linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5));
+  background-size: cover;
+  min-height: 690px;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+
+/* NAME AND DESCRIPTION */
+.designer-name {
+  color: #ffffff;
+  font-size: 8em;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  letter-spacing: 1.2px;
+  text-transform: lowercase;
+  font-family: 'Poiret One', cursive;
+}
+.designer-description {
+  color: #ffffff;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  letter-spacing: 1.5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* SYMBOLS */
+#link-icon-section {
+  padding-top: 3%;
+  padding-left: 20%;
+}
+.list-link {
+  padding-top: 5px;
+  padding-right: 18px;
+  padding-left: 18px;
+  padding-bottom: 30px;
+  text-decoration: none;
+}
+ul li {
+  color: #ffffff;
+  font-size: 1.5em;
+  display: inline;
+}
+
+/* EXPERIENCE */
+.experience {
+  min-height: 200px;
+  background-color: #000000;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.experience-description {
+  color: #ffffff;
+  font-size: 2em;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  font-family: 'Poiret One', cursive;
+}
+hr {
+  border: solid 2px #ffffff;
+  margin-top: 5%;
+  margin-bottom: 4.5%;
+}
+strong {
+  font-size: 2.5em;
+}
+
+/* PORTFOLIO */
+.portfolio {
+  min-height: 500px;
+  background-color: #000000;
+}
+.portfolio-title {
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 3em;
+}
+.portfolio-description {
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  padding-bottom: 50px;
+}
+.card {
+  background-color: #000000;
+  padding: 20px;
+}
+.portfolio img {
+  height: 200px;
+  width: 200px;
+}
+
+/* FOOTER */
+footer {
+  min-height: 300px;
+  padding-top: 100px;
+  text-align: center;
+  background-color: #000000;
+}
+.contact-title {
+  color: #ffffff;
+  font-size: 2em;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+.contact-description {
+  color: #ffffff;
+  font-size: 1.1em;
+  font-weight: 400;
+  padding-top: 10px;
+  line-height: 2;
+}
+.social-title {
+  color: #ffffff;
+  font-size: 2em;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+.social-name {
+  color: #ffffff;
+  display: inline;
+}
+
+.copyright {
+  padding-top: 90px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  font-size: 0.75em;
+  font-family: 'Open Sans', sans-serif;
+}
+
 
 
 
